@@ -55,7 +55,7 @@ class Song
 
     newsong = self.new
     newsong.name = newarray[1]
-    newsong.artist = newarray[0]
+    newsong.artist_name = newarray[0]
     newsong
   end
 
