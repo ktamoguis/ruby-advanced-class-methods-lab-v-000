@@ -53,12 +53,21 @@ class Song
     newarray = []
     newarray = newfilename.split(" - ")
 
-    newsong = self.new
+    newsong = self.create
     newsong.name = newarray[1]
     newsong.artist_name = newarray[0]
     newsong
   end
 
   def self.create_from_filename(filename)
+    newfilename = filename.chomp(".mp3")
+    newarray = []
+    newarray = newfilename.split(" - ")
+
+    newsong = self.new
+    newsong.name = newarray[1]
+    newsong.artist_name = newarray[0]
+    newsong
+  end
 
 end
