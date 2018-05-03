@@ -70,4 +70,8 @@ class Song
     newsong
   end
 
+  def self.destroy_all
+
+  end
+
 end
