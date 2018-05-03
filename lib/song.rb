@@ -64,7 +64,7 @@ class Song
     newarray = []
     newarray = newfilename.split(" - ")
 
-    newsong = self.save
+    newsong = self.create
     newsong.name = newarray[1]
     newsong.artist_name = newarray[0]
     newsong
